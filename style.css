@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;600;700&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "poppins",sans-serif; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* page 1 */
+
+.main {
+    width: 100vw;
+    height: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: max-content;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    position: relative;
+    right: 100px;
+    top: 8px;
+}
+
+.container ul li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.container p {
+    position: relative;
+    top: 8px;
+}
+
+.container p span {
+    color: blue;
+}
+
+.row2 {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 900;
+    /* position: fixed; */
+    background-color: #fff;
+}
+
+.row2 img {
+    width: 150px;
+    position: relative;
+    right: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.row2 ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 5px;
+}
+
+.row2 ul li {
+    color: rgb(0, 0, 84);
+}
+
+.row2 ul li:hover {
+    cursor: pointer;
+    color: #000;
+}
+.image{
+    width: 100vw;
+    height: 70vh;
+    background: url(/images/rerf1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.image span{
+    border: 2px solid #9da8b7;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    font-weight: 900;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 1100px;
+    top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #09274b;
+    color: #fff;
+    padding: 15px;
+    font-size: 12px;
+}
+.image span:hover{
+    background-color: #061b35;
+    cursor: pointer;
+}
+
+.animated-text{
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+ .hero-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    gap: 5px;
+}
+.hero-text h5{
+    font-weight: 900;
+}
+.hero-text p{
+    font-size: 12px;
+    position: relative;
+    top: 6px;
+    
+}
+.hero-text .input{
+    font-size: 13px;
+    color: #0000ff;
+    font-weight: 900;
+    position: relative;
+    top: 4px;
+}
+
+/* Page  2 */
+
+.quotes{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 60vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.text h3{
+    font-weight: 900;
+}
+
+.content{
+    width: 100vw;
+    height: 70px;
+    /* background-color: #9da8b7; */
+    display: flex;
+    justify-content: center;
+  
+}
+
+.content .event{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    position: relative;
+    right: 270px;
+    gap: 40px;
+}
+.content .event h1{
+      font-family: "Poppins",sans-serif;
+}
+.content span{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    top: 14px;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content span:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+.content .notice{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    position: relative;
+    left: 270px;  
+    gap: 40px; 
+}
+
+.data{
+    width: max-content;
+    height: min-content;
+    position: relative;
+    /* background-color: #e1e1e1; */
+    left: 258px;
+    display:flex;
+}
+
+.card-title{
+    font-family: "Poppins",sans-serif;
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.data .part-1{
+    margin-right: 10px;
+  
+}
+.data .part-2{
+    margin-left:10px ;
+}
+.data .part-1 .card{
+    margin: 30px 0;
+    border: none;
+}
+.data .part-2 .card{
+    margin: 30px 0;
+    border:none ;
+}
+.card-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.notice-data{
+    height: min-content;
+    width: 20vw;
+    /* background-color: #9da8b7; */
+    position: relative;
+    left: 1030px;
+    bottom: 762px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-1{
+    width: 90px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #002147;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.box-1 .date1,.month1{
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    line-height: normal;
+}
+.box-1 .date1{
+    font-size: 30px;
+}
+.box-1 .month1{
+    font-size: 15px;
+}
+
+.text-content{
+    width: 14vw;
+    height: 65px;
+    position: relative;
+    left: 100px;
+    bottom: 735px;
+    line-height: normal;
+    margin-top: 40px;
+}
+.text-content span{
+    font-weight: 900;
+}
+.text-content span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-content p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.background{
+    width: 100vw;
+    height: 60vh;
+   position: relative;
+    /* background-color: #9da8b7; */
+    bottom: 1400px;
+    color: #fff;
+}
+
+.bcg-overlay {
+    position: relative; 
+    width: 100%;
+    min-height: 100%; 
+    background-image: url(/images/scholar.png); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bcg-overlay::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0; 
+}
+.bcg-content{
+    width: max-content;
+    height: max-content;
+    /* background-color: #9da8b7; */
+    position: relative;
+    top: 200px;
+    line-height: normal;
+}
+
+#para{
+    font-size: 35px;
+    font-family: "Poopins",sans-serif;
+    font-weight: 600;
+}
+
+.span-content span{
+    font-size: 22px;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.span-content span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.sylabus-content{
+    width: 100%;
+    height:40vh ;
+    /* background-color: #9da8b7; */
+    position: relative;
+    bottom: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sylabus-data{
+    width: 650px;
+    height: 140px;
+    /* background-color: #fff; */
+    text-align: center;
+    position: relative;
+    left: 135px;
+    
+}
+.sylabus-data h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600 ;
+}
+
+.sylabus-list{
+    width: max-content;
+    height: max-content;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 130px;
+    right: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sylabus-list span{
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: 0 30px;
+}
+.sylabus-list span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ff;
+    transition: 0.2s;
+}
+
+.underline-1{
+    width: 50vw;
+    height:'';
+    border: 0.25px solid rgba(186, 186, 186, 0.411);
+    position: relative;
+    bottom: 1350px;
+    left: 350px;
+}
+
+.affilation{
+    width: 100%;
+    height: max-content;
+    /* background-color: #9da8b7; */
+    position: relative;
+    bottom: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.affilation h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+}
+.affilation-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.affilation-img img{
+    width: 130px;
+    margin: 60px 30px 0 ;
+}
+
+.admission-content{
+    width: 100%;
+    height: max-content;
+    /* background-color: #9da8b7; */
+    position: relative;
+    bottom: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.admission-content h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.admission-content h1{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    color: #002147;
+    font-size: 38px;
+}
+
+
+.admission{
+    width: 100%;
+    height: max-content;
+    /* background-color: #9da8b7; */
+    position: relative;
+    bottom: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admission input,button{
+    width: 280px;
+    height: 45px;
+    margin: 10px;
+}
+.admission input{
+    padding-left: 40px;
+    /* border: 1px solid #007aff; */
+    border: 1px solid #e1e1e1;
+    font-weight: 500;
+}
+
+.admission button{
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.admission button:hover{
+    background-color: #0275d8;
+}
+
+
+.footer-content{
+    width:100% ;
+    height: max-content;
+    /* background-color: #9da8b7; */
+    position: relative;
+    bottom: 900px;
+}
+.address{
+    width: 350px;
+    height: max-content;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 180px;
+}
+.address span{
+    font-size: 14px;
+}
+.address img{
+    margin-top: 10px;
+}
+.address img:hover{
+    cursor: pointer;
+}
+
+.address .logo{
+    font-size: 25px;
+    margin: 15px 10px 0 0;
+    color: #555555;
+    transition: 0.5s;
+}
+.address .logo:hover{
+    transform: rotate(360deg);
+    color: #000;
+}
+.address p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    margin-top: 10px;
+}
